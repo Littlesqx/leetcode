@@ -1,5 +1,5 @@
-## Lettcode Solution (Go)
-### Algorithms
+## Leetcode Solution
+### Algorithms (Go)
 #### Array
 - [Remove Element](./algorithms/array/01-Remove-Element.md)
 ## Thanks
