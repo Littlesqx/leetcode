@@ -8,9 +8,8 @@ Table: Person
 |FirstName|varchar|
 |LastName|varchar|
 
- PersonId is the primary key column for this table.
+PersonId is the primary key column for this table.
  
- ---
  
 Table: Address
 
@@ -29,6 +28,7 @@ Write a SQL query for a report that provides the following information for each 
 **关键**
 - regardless if there is an address for each of those people
 
+**解法：**
 ```mysql
 SELECT p.FirstName, p.LastName, a.City, a.State 
 FROM 
