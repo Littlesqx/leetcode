@@ -12,7 +12,7 @@
 **关键**
 
 - Do not allocate extra space for another array.
-
+- The order of elements can be changed.
 - It doesn't matter what you leave beyond the new length.
 
 **方法一、直接去掉元素，前后两部分重新拼接。**
@@ -28,6 +28,8 @@ func removeElement(nums []int, val int) int {
     return len(nums)
 }
 ```
+> 回过头看，slice类型的拼接，似乎额外申请空间了；虽然可以AC，但违规了，空间复杂度应该是O(n)。
+
 **方法二、利用原本数组空间重新“覆盖”一个新数组。**
 ```Go
 func removeElement(nums []int, val int) int {
@@ -41,8 +43,21 @@ func removeElement(nums []int, val int) int {
     return j
 }
 ```
-严格来说，移除数组元素，那原本数组的长度和元素位置应该都变化。比如：[1,2,2,3] 移除2后应该是 [1,3]。
-而方法二的结果是[1,3,2,3]。但是题目说了，不考虑返回length后的多余元素。
+**方法三、从尾部开始获取元素，也是“覆盖”一个新数组。**
+```Go
+func removeElement(nums []int, val int) int {
+	n, i := len(nums), 0
+	for i < n {
+		if nums[i] == val {
+			nums[i] = nums[n-1]
+			n--
+		} else {
+			i++
+		}
+	}
+	return n
+}
+```
 
 
 
