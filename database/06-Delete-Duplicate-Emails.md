@@ -17,7 +17,9 @@ For example, after running your query, the above Person table should have the fo
 |2|bob@example.com|
 
 **解法**
+
 错误示范
+
 ```mysql
 DELETE FROM Person WHERE Id NOT IN (
   SELECT Id FROM Person GROUP BY Email ORDER BY Id ASC 
@@ -26,6 +28,7 @@ DELETE FROM Person WHERE Id NOT IN (
 现在才知道这样会引起语法错误，而且GROUP BY 和 ORDER BY 同时用，上面的例子ORDER BY其实没有效果。
 
 有其他提交也是类似的思路，正确的应该使用MIN函数：
+
 ```mysql
 DELETE FROM Person
 WHERE Id NOT IN (
