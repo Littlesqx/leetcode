@@ -15,16 +15,17 @@ For example, given the above Employee table, the query should return 200 as the 
 |200|
 
 **关键**
+- second highest
 - If there is no second highest salary, then the query should return null.
 
 **解法：**
 
 ```mysql
 SELECT IFNULL((
-    SELECT Salary FROM Employee ORDER BY Salary DESC LIMIT 1, 1
+    SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT 1, 1
 ), NULL) AS SecondHighestSalary;
 ```
 
 **心得**
 
-参考了答案，不知道有IFNULL函数，直接 SELECT查询结果AS也让我惊了。。。
+参考了答案，不知道有IFNULL函数，直接 SELECT查询结果AS也让我惊了。第二高也没有留意到要用DISTINCT。
