@@ -25,6 +25,15 @@ DELETE FROM Person WHERE Id NOT IN (
 ```
 现在才知道这样会引起语法错误，而且GROUP BY 和 ORDER BY 同时用，上面的例子ORDER BY其实没有效果。
 
+有其他提交也是类似的思路，正确的应该使用MIN函数：
+```mysql
+DELETE FROM Person
+WHERE Id NOT IN (
+  SELECT * FROM (
+    SELECT MIN(Id) FROM Person GROUP BY Email 
+  ) AS temp
+)
+```
 参考答案
 
 ```mysql
