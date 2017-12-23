@@ -9,5 +9,6 @@
 - [Employee Earning More Than Their Managers](./database/03-Employees-Earning-More-Than-Their-Managers.md)
 - [Duplicate Emails](./database/04-Duplicate-Emails.md)
 - [Customers Who Never Order](./database/05-Customers-Who-Never-Order.md)
+- [Delete Duplicate Emails](./database/06-Delete-Duplicate-Emails.md)
 ## Thanks
 - [Lettcode题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
