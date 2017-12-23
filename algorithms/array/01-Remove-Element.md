@@ -18,7 +18,7 @@
 **方法一、直接去掉元素，前后两部分重新拼接。**
 ```Go
 func removeElement(nums []int, val int) int {
-	n := len(nums)
+    n := len(nums)
     for i := 0; i < n; i++ {
     	if val == nums[i] {
     		nums = append(nums[:i], nums[i+1:]...)
@@ -31,7 +31,7 @@ func removeElement(nums []int, val int) int {
 **方法二、利用原本数组空间重新“覆盖”一个新数组。**
 ```Go
 func removeElement(nums []int, val int) int {
-	j, n := 0, len(nums)
+    j, n := 0, len(nums)
     for i := 0; i < n; i++ {
     	if val != nums[i] {
     		nums[j] = nums[i]
