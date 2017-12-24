@@ -5,6 +5,7 @@
 - [Remove Duplicates from Sorted Array](./algorithms/array/02-Remove-Duplicates-from-Sorted-Array.md)
 - [Plus One](./algorithms/array/03-Plus-One.md)
 - [Pascal's Triangle](./algorithms/array/04-Pascal's-Triangle.md)
+- [Merge Sorted Array](./algorithms/array/05-Merge-Sorted-Array.md)
 ### Database
 - [Combine Two Tables](./database/01-Combine-Two-Tables.md)
 - [Second Highest Salary](./database/02-Second-Highest-Salary.md)
