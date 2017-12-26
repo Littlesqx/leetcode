@@ -81,8 +81,7 @@ Find all unique triplets in the array which gives the sum of zero.
 
 - must not contain duplicate triplets
 
-- 根据例子，隐藏了一个条件，每个解法里的元素是从小到大排序的，
-这些元素不可重复（数组下标一样才算重复）。
+- 根据例子，隐藏了一个条件，每个解法里的元素是从小到大排序。
 
 **方法一、暴力法**
 
