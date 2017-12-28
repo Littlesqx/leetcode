@@ -15,5 +15,6 @@
 - [Customers Who Never Order](./database/05-Customers-Who-Never-Order.md)
 - [Delete Duplicate Emails](./database/06-Delete-Duplicate-Emails.md)
 - [Rising Temperature](./database/07-Rising-Temperature.md)
+- [Big Countries](./database/08-Big-Countries.md)
 ## Thanks
 - [Lettcode题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
