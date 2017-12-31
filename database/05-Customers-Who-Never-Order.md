@@ -32,3 +32,13 @@ WHERE Id NOT IN (
     SELECT CustomerId AS Id FROM Orders
 )
 ```
+
+**另一个解法**
+
+左连接只含有自己原有的部分。
+
+```mysql
+SELECT Name AS Customers FROM Customers
+LEFT JOIN Orders ON Customers.Id = Orders.CustomerId 
+WHERE CustomerId IS NULL
+```
