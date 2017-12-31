@@ -26,6 +26,17 @@ SELECT IFNULL((
 ), NULL) AS SecondHighestSalary;
 ```
 
+**另一个解法**
+
+虽然效率低，但思路值得学习。
+
+```mysql
+SELECT IFNULL(MAX(Salary), NULL) AS SecondHighestSalary 
+FROM Employee WHERE Salary != (
+  SELECT MAX(Salary) FROM Employee
+)
+```
+
 **心得**
 
 参考了答案，不知道有IFNULL函数，直接 SELECT查询结果AS也让我惊了。第二高也没有留意到要用DISTINCT。
