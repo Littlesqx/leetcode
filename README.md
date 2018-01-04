@@ -16,6 +16,10 @@
 - [Maximum Depth of Binary Tree](./algorithms/tree/01-Maximum-Depth-of-Binary-Tree.md)
 - [Construct Binary Tree](./algorithms/tree/02-Construct-Binary-Tree.md)
 
+#### Linked list
+
+- [Linked List Cycle](./algorithms/list/01-Linked-List-Cycle.md)
+
 ### Database
 - [Combine Two Tables](./database/01-Combine-Two-Tables.md)
 - [Second Highest Salary](./database/02-Second-Highest-Salary.md)
