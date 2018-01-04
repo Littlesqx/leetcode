@@ -14,6 +14,7 @@
 #### Tree
 
 - [Maximum Depth of Binary Tree](./algorithms/tree/01-Maximum-Depth-of-Binary-Tree.md)
+- [Construct Binary Tree](./algorithms/tree/02-Construct-Binary-Tree.md)
 
 ### Database
 - [Combine Two Tables](./database/01-Combine-Two-Tables.md)
