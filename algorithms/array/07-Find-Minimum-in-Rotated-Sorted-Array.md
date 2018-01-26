@@ -26,11 +26,7 @@
 
 ```go
 func findMin(nums []int) int {
-    n := len(nums)
-    if n <= 1 {
-        return nums[0]
-    }
-    start, end, min := 0, n - 1, 0
+    start, end, min := 0, len(nums) - 1, 0
     for start < end {
         if (nums[start] < nums[end]) {
             return nums[start]
@@ -39,7 +35,7 @@ func findMin(nums []int) int {
         if (nums[start] > nums[min]) {
             end = min
         } else {
-            start = min + 1
+            start = min+1
         }
     }
     return nums[start]
@@ -66,11 +62,7 @@ func findMin(nums []int) int {
 
 ```go
 func findMin(nums []int) int {
-    n := len(nums)
-    if n <= 1 {
-        return nums[0]
-    }
-    start, end, min := 0, n - 1, 0
+    start, end, min := 0, len(nums) - 1, 0
     for start < end {
         if (nums[start] < nums[end]) {
             return nums[start]
