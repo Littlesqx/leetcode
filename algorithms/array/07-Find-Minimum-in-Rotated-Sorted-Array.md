@@ -11,7 +11,6 @@
 
 - You may assume no duplicate exists in the array.
 
-**二分法**
 可以先排序再选第一个，但效率没有二分法高。
 
 里面有一个规律，因为旋转点只有一个，排好序的数组变成了两段（也是分别排好序的）。
@@ -35,7 +34,7 @@ func findMin(nums []int) int {
         if (nums[start] > nums[min]) {
             end = min
         } else {
-            start = min+1
+            start = min + 1
         }
     }
     return nums[start]
