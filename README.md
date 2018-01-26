@@ -10,6 +10,7 @@
 - [Pascal's Triangle](./algorithms/array/04-Pascal's-Triangle.md)
 - [Merge Sorted Array](./algorithms/array/05-Merge-Sorted-Array.md)
 - [Sum](./algorithms/array/06-Sum.md)
+- [Find Minimum in Rotated Sorted Array](./algorithms/array/07-Find-Minimum-in-Rotated-Sorted-Array.md)
 
 #### Tree
 
