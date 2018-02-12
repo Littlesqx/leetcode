@@ -16,6 +16,7 @@
 
 - [Maximum Depth of Binary Tree](./algorithms/tree/01-Maximum-Depth-of-Binary-Tree.md)
 - [Construct Binary Tree](./algorithms/tree/02-Construct-Binary-Tree.md)
+- [Binary Tree Level Order Traversal](./algorithms/tree/03-Binary-Tree-Level-Order-Traversal.md)
 
 #### Linked list
 
