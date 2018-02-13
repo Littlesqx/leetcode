@@ -33,4 +33,4 @@
 - [Rising Temperature](./database/07-Rising-Temperature.md)
 - [Big Countries](./database/08-Big-Countries.md)
 ## Thanks
-- [Lettcode题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
+- [Lettcode 题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
