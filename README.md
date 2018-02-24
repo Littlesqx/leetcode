@@ -23,6 +23,10 @@
 - [Linked List Cycle](./algorithms/list/01-Linked-List-Cycle.md)
 - [Remove Duplicates from Sorted List](./algorithms/list/02-Remove-Duplicates-from-Sorted-List.md)
 
+#### Dynamic programming
+
+- [Best Time to Buy and Sell Stock](./algorithms/dynamic-programming/01-Best-Time-to-Buy-and-Sell-Stock.md)
+
 ### Database
 - [Combine Two Tables](./database/01-Combine-Two-Tables.md)
 - [Second Highest Salary](./database/02-Second-Highest-Salary.md)
