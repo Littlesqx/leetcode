@@ -32,5 +32,9 @@
 - [Delete Duplicate Emails](./database/06-Delete-Duplicate-Emails.md)
 - [Rising Temperature](./database/07-Rising-Temperature.md)
 - [Big Countries](./database/08-Big-Countries.md)
+- [Classes More Than 5 Students](./database/09-Classes-More-Than-5-Students.md)
+- [Not Boring Movies](./database/10-Not-Boring-Movies.md)
+- [Swap Salary](./database/11-Swap-Salary.md)
+- [Nth Highest Salary](./database/12-Nth-Highest-Salary.md)
 ## Thanks
 - [Lettcode 题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
