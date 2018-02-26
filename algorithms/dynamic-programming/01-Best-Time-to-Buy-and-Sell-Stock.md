@@ -51,7 +51,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 这里面是有一定规律的。
 
-![](./bttbass2.png)
+![](https://leetcode.com/media/original_images/122_maxprofit_1.PNG)
 
 以上图为例，最大的收益是 A+B 也就是连续峰谷差值的累加。
 
@@ -75,7 +75,7 @@ func maxProfit(prices []int) int {
 
 还是上面的思路，看下面这张图：
 
-![](./bttbass21.png)
+![](https://leetcode.com/media/original_images/122_maxprofit_2.PNG)
 
 每个峰谷的收益是 A+B+C 也就是一次爬坡的总和。最大收益即所有爬坡的累加。
 
