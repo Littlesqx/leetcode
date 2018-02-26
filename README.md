@@ -28,6 +28,7 @@
 - [Best Time to Buy and Sell Stock](./algorithms/dynamic-programming/01-Best-Time-to-Buy-and-Sell-Stock.md)
 
 ### Database
+
 - [Combine Two Tables](./database/01-Combine-Two-Tables.md)
 - [Second Highest Salary](./database/02-Second-Highest-Salary.md)
 - [Employee Earning More Than Their Managers](./database/03-Employees-Earning-More-Than-Their-Managers.md)
@@ -40,5 +41,6 @@
 - [Not Boring Movies](./database/10-Not-Boring-Movies.md)
 - [Swap Salary](./database/11-Swap-Salary.md)
 - [Nth Highest Salary](./database/12-Nth-Highest-Salary.md)
+
 ## Thanks
 - [Lettcode 题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
